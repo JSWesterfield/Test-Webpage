@@ -38,3 +38,17 @@ ul {list-style: none;
  .dream { 
  	border: 3px solid white;
   }
+
+ .parallax {
+ 	/* The image used */
+ 	background-image: url("images/dummy.png")
+
+ 	/*set a specific height */
+ 	height: 500px;
+
+ 	/* Parallax Scrolling Effect*/
+ 	background-attachment: fixed;
+ 	background-position: center;
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+  }
